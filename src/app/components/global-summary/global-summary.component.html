@@ -1,0 +1,9 @@
+<div class="main-container">
+    <h2>Global Summary</h2>
+    <div class="card-container">
+        <div class="summary-item" *ngFor="let item of globalSummary | keyvalue">
+            <h3>{{item.key}}</h3>
+            <p>{{item.value}}</p>
+        </div>
+    </div>
+</div>
